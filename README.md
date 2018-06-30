@@ -16,3 +16,7 @@ AED - Emirati Dirham, BHD - Bahraini Dinar, HKD - Hong Kong Dollar, JOD - Jordan
 
 # Development
 -The project is still in development and the goal is to have it functioning with and web interface and communicating with other exchanges. The end result will show arbitrage opportunities between different currencies in different systems and.
+
+# Devnotes
+-this calculator is in no way official and it should not be used for any financial operations.
+-this calculator does not calculate transactions costs and fees.
