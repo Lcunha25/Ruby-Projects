@@ -6,7 +6,7 @@ require 'mechanize'
 
 # GET'S THE FIRST CURRENCY
 
-print "What rate would you like to convert to? "
+print "What rate would you like to convert USD to? "
     to_rate = gets.chomp
 
 class Xchanger

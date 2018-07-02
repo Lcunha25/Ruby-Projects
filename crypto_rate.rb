@@ -15,18 +15,25 @@ obj = JSON.parse response, symbolize_names: true
     result_BTC_ETH = result_BTC / btc_eth
     result_ETH_BTC = result_ETH * btc_eth
 
+    print "Your BTC*USD conversion for 1000 USD is "
+    puts result_BTC
+    print "Your ETH*USD conversion for 1000 USD is "
+    puts result_ETH
+    print "Your BTC*ETH conversion is "
+    puts btc_eth
+
     if result_BTC > result_ETH_BTC
-        print "you would lose "
+        print "On BTC conversion to ETH you would lose "
         puts result_BTC - result_ETH_BTC
     else
-        print "your profit is "
+        print "On BTC conversion to ETH your profit is "
         puts result_ETH_BTC - result_BTC
     end
 
     if result_ETH > result_BTC_ETH
-        print "you would lose "
+        print "On ETH conversion to BTC you would lose "
         puts result_ETH - result_BTC_ETH
     else
-        print "your profit is "
+        print "On ETH conversion to BTC you would lose "
         puts result_BTC_ETH - result_ETH
     end
