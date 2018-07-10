@@ -24,11 +24,17 @@ AED - Emirati Dirham, BHD - Bahraini Dinar, HKD - Hong Kong Dollar, JOD - Jordan
 
 ### Second Project
 Run any of the files functions and the result should show already updates.
+
 -amazonEmail captures and shows e-mails of every person selling snacks on amazon
+
 -amazonList captures and shows list of snacks from amazon
+
 -nibbleList captures and shows list of snacks from nibble
+
 -nibblePrice captures and shows price for the snacks listed
+
 -compareAndExtractEmail compares the list of snacks from nibbles and amazon, selects commom snacks and displays the e-mail of people selling them from amazon.
+
 -compareAndExtractPrice compares the list of snacks from nibbles and amazon, selects commom snacks and displays the price they sell for. After that it sums them and shows how much they would cost to the user.
 
 
