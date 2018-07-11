@@ -34,3 +34,4 @@ def compareAndExtractEmail
         r = r + 1
     end 
 end
+compareAndExtractEmail()

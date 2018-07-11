@@ -39,3 +39,4 @@ def compareAndExtractPrice
     print 'The total you will spend is: '
     puts ary[0].to_f + ary[1].to_f
 end
+compareAndExtractPrice()
