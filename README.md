@@ -8,7 +8,8 @@ The first project is interacting with the XE currency conversion website. It use
 The second project is interacting with the Amazon website to extract data from snack sellers and coparing it with another json list from the Nibble website. In the end it extracts and compares data from these two websites.
 
 # Running the project
--First install locally mechanize and Ruby.
+-First install locally mechanize, JSON, pp, httparty and Ruby.
+
 
 ### First Project
 -Type in the CLI, when in the project folder, "ruby rate.rb"
@@ -23,7 +24,8 @@ AED - Emirati Dirham, BHD - Bahraini Dinar, HKD - Hong Kong Dollar, JOD - Jordan
 -The crypto conversion is fixed on BTC ETH conversions as those are the main currencies with enough volume for arbitrage operations.
 
 ### Second Project
-Run any of the files functions and the result should show already updates.
+Start by running amazonEmail.rb, amazonList.rb, nibbleList.rb and nibblePrice.rb on your CLI-IRB.
+Once that is successfully you are able to run compareAndExtractEmail and compareAndExtractPrice.
 
 -amazonEmail captures and shows e-mails of every person selling snacks on amazon
 
